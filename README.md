@@ -1,6 +1,6 @@
 # npmtest-daemon
 
-#### test coverage for  [daemon (v1.1.0)](https://github.com/indexzero/daemon.node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-daemon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-daemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-daemon.svg)](https://travis-ci.org/npmtest/node-npmtest-daemon)
+#### basic test coverage for  [daemon (v1.1.0)](https://github.com/indexzero/daemon.node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-daemon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-daemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-daemon.svg)](https://travis-ci.org/npmtest/node-npmtest-daemon)
 
 #### Add-on for creating *nix daemons
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-daemon/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-daemon/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-daemon/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-daemon/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-daemon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-daemon/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-daemon/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-daemon/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-daemon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-daemon/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-daemon/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-daemon/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
     "scripts": {
         "test": "mocha --ui qunit test/*.js"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
